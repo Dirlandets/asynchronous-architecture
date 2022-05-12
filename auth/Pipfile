@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+wemake-python-styleguide = "*"
+mypy = "*"
+django-stubs = "*"
+djangorestframework-stubs = "*"
+django-debug-toolbar = "*"
+flake8 = "==3.8.2"
+isort = "<5"
+
+[packages]
+django = "==4.0"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+psycopg2-binary = "*"
+
+[requires]
+python_version = "3.9"
